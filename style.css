@@ -1,0 +1,13 @@
+* {
+    color: white;
+}
+
+.MemberProfile{
+    max-width: 9%;
+    border-radius: 20%;
+    padding: 1%;
+}
+
+.MemberName {
+    text-align: center;
+}

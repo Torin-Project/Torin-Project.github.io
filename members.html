@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torin - Members</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="dark:bg-slate-800">
+  <div class="container px-4">
+    <div class="grid grid-cols-2 flex">
+      <div class="flex items-center col-lg" style="min-width: 70%;">
+        <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight flex"
+          style="font-size: 160%;">Torin Projects
+        </h3>
+        <img src="https://avatars.githubusercontent.com/u/176067683" alt="icon"
+          style="max-width: 40px; max-height: 40px;margin-top: 3%; margin-left: 3%;" class="flex rounded-lg">
+      </div>
+      <div class="col-lg-2 py-4 float-end" style="margin-left: 40%;">
+        <div class="flex justify-between  flex" style="text-align: right;">
+          <button class="bg-indigo-600 rounded shadow px-1 py-1 font-semibold flex" style="float: right;">Download Now</button>
+
+          <button class="text-white focus:outline-none">
+            <a href="https://github.com/Torin-Project">Github</a>
+          </button>
+
+          <button class="text-white focus:outline-none">
+            <a href="">About</a>
+          </button>
+
+          <button class="text-white focus:outline-none">
+            <a href="./members.html">Members</a>
+          </button>
+
+          <div class="relative flex">
+            <button id="installersButton" class="focus:outline-none text-white" style="float: right;">
+              installers
+            </button>
+            <div id="installersDropDown" class="absolute right-0 top-10 bg-white rounded shadow-lg hidden">
+              <ul class="py-1 px-2">
+                <li>
+                  <a href="https://github.com/Torin-Project/Photoshop-Linux"
+                    class="block text-gray-800 hover:text-gray-400">photoshop</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div id="members" class="grid grid-cols-1">
+      loading...
+    </div>
+  </div>
+  <script src="./tailwind.js"></script>
+  <script src="./members.js"></script>
+</body>
+
+</html>
